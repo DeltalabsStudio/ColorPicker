@@ -234,8 +234,8 @@ public class ColorChooserView extends FrameLayout implements View.OnClickListene
                 child.setSelected(subIndex() == position);
             else child.setSelected(topIndex() == position);
             child.setTag(String.format("%d:%d", position, color));
-            child.setOnClickListener(ColorChooserFragment.this);
-            child.setOnLongClickListener(ColorChooserFragment.this);
+            child.setOnClickListener(ColorChooserView.this);
+            child.setOnLongClickListener(ColorChooserView.this);
             return convertView;
         }
     }
