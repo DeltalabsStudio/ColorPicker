@@ -16,7 +16,7 @@ import android.widget.GridView;
 
 
 @SuppressWarnings({"FieldCanBeLocal", "ConstantConditions"})
-public class ColorChooserFragment extends FrameLayout implements View.OnClickListener, View.OnLongClickListener {
+public class ColorChooserView extends FrameLayout implements View.OnClickListener, View.OnLongClickListener {
 
     private int mCircleSize;
     private ColorPickerCallback mCallback=null;
