@@ -32,23 +32,23 @@ public class ColorChooserView extends FrameLayout implements View.OnClickListene
     @Nullable
     private int[][] mColorsSub;
 
-    public ColorChooserFragment(Context context) {
+    public ColorChooserView(Context context) {
         super(context);
         init(context);
     }
 
-    public ColorChooserFragment(Context context, AttributeSet attrs) {
+    public ColorChooserView(Context context, AttributeSet attrs) {
         super(context, attrs);
         init(context);
     }
 
-    public ColorChooserFragment(Context context, AttributeSet attrs, int defStyleAttr) {
+    public ColorChooserView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         init(context);
     }
 
     @TargetApi(21)
-    public ColorChooserFragment(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
+    public ColorChooserView(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
         init(context);
     }
