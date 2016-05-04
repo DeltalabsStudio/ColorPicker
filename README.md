@@ -15,6 +15,6 @@ allprojects {
 Add as a dependency
 ```
 dependencies {
-  compile 'com.github.garretyoder:ColorPicker:1.1'
+  compile 'com.github.garretyoder:ColorPicker:1.+'
 }
 ```
