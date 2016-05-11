@@ -31,6 +31,10 @@ public class ColorChooserView extends FrameLayout implements View.OnClickListene
     private int[] mColorsTop;
     @Nullable
     private int[][] mColorsSub;
+    
+    public void setColorCallback(ColorPickerCallback callback) {
+        mCallback = callback;
+    }
 
     public ColorChooserView(Context context) {
         super(context);
